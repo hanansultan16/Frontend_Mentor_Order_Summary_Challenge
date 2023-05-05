@@ -1,0 +1,103 @@
+body {
+    background: url('/images/pattern-background-desktop.svg');
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    display:flex;
+    color: #8294C4;
+}
+
+.main {
+    background-color: #ECF2FF;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.illustration-hero{
+    border-radius: 50px 50px 0 0;
+    width: 100%;
+}
+
+p {
+    padding: 0 15%;
+}
+
+.order {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #000;
+}
+
+ .music {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     margin: auto 8px;
+ }
+
+ .ul {
+    list-style: none;
+    display: flex;
+    min-height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+ }
+
+ .ann {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ }
+
+ b {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    padding: 5px;
+ }
+
+ .change {
+    position: absolute;
+    justify-content: flex-end;
+    text-align: center;
+    margin-left: 170px;
+    padding-top: 10px;
+ }
+
+
+ button{
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #2155CD;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    width: 80%;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 10px 10px #3d2e5c40;
+ }
+
+ .btn:hover {
+    background-color: #151965;
+    cursor: pointer;
+ }
+
+ .cnl {
+    color: #5F6F94;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+ }
